@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const {models: {Movie, Actor, Role}} = require('./db')
 
 module.exports = app
 
